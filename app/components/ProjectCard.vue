@@ -18,7 +18,7 @@ const description = computed(() => t(`projects.items.${props.project.slug}.descr
     >
       <img
         v-if="project.image"
-        :src="project.image"
+        :src="useAssetUrl(project.image)"
         :alt="title"
         class="h-full w-full object-cover transition duration-300 group-hover:scale-105"
       />

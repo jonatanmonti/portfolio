@@ -55,7 +55,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
           <div class="aspect-video w-full">
             <video
               v-if="project.video.type === 'mp4'"
-              :src="project.video.src"
+              :src="useAssetUrl(project.video.src)"
               class="h-full w-full"
               controls
               autoplay

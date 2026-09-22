@@ -136,7 +136,7 @@ onBeforeUnmount(() => window.removeEventListener('keydown', onKeydown))
                 <img
                   v-for="(img, i) in project.detail.gallery"
                   :key="i"
-                  :src="img"
+                  :src="useAssetUrl(img)"
                   :alt="`${title} ${i + 1}`"
                   class="aspect-video w-full rounded-lg object-cover"
                 />

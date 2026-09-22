@@ -3,7 +3,9 @@ import { personal } from '~/data/profile'
 
 const { t, locale } = useI18n()
 
-const cvUrl = computed(() => (locale.value === 'es' ? '/cv-jonatan-monti.pdf' : `/cv-jonatan-monti-${locale.value}.pdf`))
+const cvUrl = computed(() =>
+  useAssetUrl(locale.value === 'es' ? '/cv-jonatan-monti.pdf' : `/cv-jonatan-monti-${locale.value}.pdf`)
+)
 
 const links = computed(() => [
   { href: '#sobre-mi', label: t('nav.about') },

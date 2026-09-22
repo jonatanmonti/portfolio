@@ -10,6 +10,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/tailwind.css'],
 
   app: {
+    baseURL: process.env.NUXT_APP_BASE_URL || '/',
     head: {
       title: 'Jonatan Monti · Desarrollador Full-Stack',
       meta: [
@@ -28,7 +29,7 @@ export default defineNuxtConfig({
         },
         { property: 'og:type', content: 'website' }
       ],
-      link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }]
+      link: [{ rel: 'icon', type: 'image/svg+xml', href: './favicon.svg' }]
     }
   },
 
@@ -73,6 +74,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: 'vercel'
+    preset: process.env.NITRO_PRESET || 'vercel',
+    prerender: {
+      routes: [process.env.NUXT_APP_BASE_URL || '/']
+    }
   }
 })
