@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "skills": "Skills",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "downloadCv": "Descargar CV",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "darkMode": {
+    "activateLight": "Activar modo claro",
+    "activateDark": "Activar modo oscuro"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "Español",
+    "en": "Inglés",
+    "pt": "Portugués"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "tagline": "Software Engineer especializado en Angular, Vue.js y C#.",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactarme"
+  },
+  "about": {
+    "eyebrow": "Sobre mí",
+    "title": "Quién soy",
+    "description": "Un poco más sobre mi forma de trabajar y lo que me interesa.",
+    "role": "Desarrollador Full-Stack",
+    "summary": "Desarrollador Full-Stack con experiencia en desarrollo web, de software y de aplicaciones móviles (Ionic + Capacitor). Especializado en tecnologías como C#, Angular, HTML, CSS y TypeScript. Proactivo, organizado y orientado a la resolución de problemas, con experiencia trabajando en equipo y en entornos ágiles.",
+    "softSkills": [
+      "Trabajo en equipo",
+      "Adaptabilidad",
+      "Razonamiento analítico",
+      "Creatividad",
+      "Gestión del tiempo",
+      "Resolución de problemas bajo presión"
+    ],
+    "languagesTitle": "Idiomas",
+    "languages": {
+      "es": { "name": "Español", "level": "Nativo" },
+      "en": { "name": "Inglés", "level": "Intermedio" }
+    }
+  },
+  "experience": {
+    "eyebrow": "Trayectoria",
+    "title": "Experiencia y Educación",
+    "professionalTitle": "Experiencia profesional",
+    "educationTitle": "Educación",
+    "jobs": {
+      "cnv": {
+        "role": "Desarrollador Full-Stack",
+        "period": "2025 — Actualidad",
+        "bullets": [
+          "Desarrollo de aplicaciones web utilizando ASP.NET Core, Web APIs y Entity Framework.",
+          "Implementación de interfaces con HTML, CSS, TypeScript y Vue.js.",
+          "Trabajo colaborativo en equipo utilizando Azure DevOps."
+        ]
+      },
+      "mecon": {
+        "role": "Desarrollador Full-Stack",
+        "period": "2023 — 2025",
+        "bullets": [
+          "Desarrollo de software desktop con C#, SQL y Windows Forms.",
+          "Desarrollo de aplicaciones web utilizando ASP.NET Core, Angular y Bootstrap.",
+          "Consumo y desarrollo de APIs REST."
+        ]
+      }
+    },
+    "education": {
+      "ifts": { "title": "Tecnicatura Superior en Desarrollo de Software", "period": "2026 — Actualidad" },
+      "uai": { "title": "Ingeniería en Sistemas Informáticos", "period": "2019 — 2024 (hasta 3er año aprobado)" },
+      "coderhouse": { "title": "Desarrollo Web", "period": "Completado" },
+      "msft": { "title": "Fundamentos del Desarrollo de Software", "period": "Completado" }
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Tecnologías con las que trabajo",
+    "description": "Herramientas y lenguajes que uso día a día para construir aplicaciones web y de escritorio.",
+    "groups": {
+      "languages": "Lenguajes",
+      "frameworks": "Frameworks",
+      "databases": "Bases de datos",
+      "tools": "Herramientas",
+      "other": "Otros"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Proyectos",
+    "description": "Algunos de los sistemas que desarrollé. Hacé clic en 'Ver más' para el detalle de cada uno.",
+    "inProgress": "En curso",
+    "completed": "Finalizado",
+    "inProgressGroup": "En curso",
+    "completedGroup": "Finalizados",
+    "viewMore": "Ver más",
+    "video": "Video",
+    "site": "Sitio",
+    "accessLive": "Acceder al Sistema en Vivo",
+    "liveAccess": "Acceso al Servicio",
+    "repositories": "Repositorios",
+    "techStack": "Stack Tecnológico",
+    "emptyArchitecture": "Todavía no hay notas de arquitectura cargadas para este proyecto.",
+    "emptyGallery": "Todavía no hay capturas cargadas para este proyecto.",
+    "emptyLinks": "Todavía no hay enlaces cargados para este proyecto.",
+    "tabs": {
+      "overview": "Visión General",
+      "architecture": "Arquitectura y Retos",
+      "gallery": "Galería",
+      "stack": "Stack & Enlaces"
+    },
+    "items": {
+      "app-medica": {
+        "title": "App Médica",
+        "subtitle": "Aplicación móvil",
+        "period": "2025 — Actualidad",
+        "description": "Aplicación móvil híbrida para gestión de turnos y seguimiento de salud, desarrollada con Ionic, Angular y Capacitor para Android. Completá la descripción real del proyecto en las traducciones.",
+        "overview": "Completá acá una descripción más larga del proyecto: qué problema resuelve, para quién está pensado y qué podés destacar de tu rol en el desarrollo.",
+        "architecture": [
+          "Describí acá la arquitectura general (ej: Ionic + Angular para la app móvil, Capacitor para compilar a Android/iOS).",
+          "Agregá los mayores desafíos técnicos que resolviste."
+        ]
+      },
+      "web-agro": {
+        "title": "Web Agro",
+        "subtitle": "Plataforma web",
+        "period": "2025 — Actualidad",
+        "description": "Plataforma web para el sector agropecuario, desarrollada con ASP.NET Core y Angular. Completá la descripción real del proyecto en las traducciones.",
+        "overview": "Completá acá una descripción más larga del proyecto: qué problema resuelve, para quién está pensado y qué podés destacar de tu rol en el desarrollo.",
+        "architecture": [
+          "Describí acá la arquitectura general (ej: API en ASP.NET Core + Entity Framework, frontend en Angular consumiendo la API REST).",
+          "Agregá los mayores desafíos técnicos que resolviste."
+        ]
+      },
+      "form-engine": {
+        "title": "Form Engine",
+        "subtitle": "Motor de formularios",
+        "period": "2025 — Actualidad",
+        "description": "Motor de formularios dinámicos con backend en ASP.NET Core y frontend en Angular. Completá la descripción real del proyecto en las traducciones.",
+        "overview": "Completá acá una descripción más larga del proyecto: qué problema resuelve, para quién está pensado y qué podés destacar de tu rol en el desarrollo.",
+        "architecture": [
+          "Describí acá la arquitectura general (ej: motor de definición de formularios dinámicos consumido vía API REST).",
+          "Agregá los mayores desafíos técnicos que resolviste."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Hablemos",
+    "description": "¿Tenés un proyecto en mente o una oportunidad laboral? Escribime y te respondo a la brevedad.",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu\\@email.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Propuesta laboral, proyecto, etc.",
+      "message": "Mensaje",
+      "messagePlaceholder": "Contame en qué puedo ayudarte...",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Gracias! Tu mensaje fue enviado, te voy a responder pronto.",
+      "genericError": "Algo salió mal. Probá de nuevo en unos minutos."
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  }
+}

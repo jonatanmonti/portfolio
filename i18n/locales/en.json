@@ -1,0 +1,176 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "downloadCv": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "darkMode": {
+    "activateLight": "Switch to light mode",
+    "activateDark": "Switch to dark mode"
+  },
+  "language": {
+    "label": "Language",
+    "es": "Spanish",
+    "en": "English",
+    "pt": "Portuguese"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "tagline": "Software Engineer specialized in Angular, Vue.js and C#.",
+    "ctaProjects": "View projects",
+    "ctaContact": "Get in touch"
+  },
+  "about": {
+    "eyebrow": "About me",
+    "title": "Who I am",
+    "description": "A bit more about how I work and what I'm interested in.",
+    "role": "Full-Stack Developer",
+    "summary": "Full-Stack Developer with experience in web, software and mobile app development (Ionic + Capacitor). Specialized in technologies like C#, Angular, HTML, CSS and TypeScript. Proactive, organized and focused on problem-solving, with experience working in teams and agile environments.",
+    "softSkills": [
+      "Teamwork",
+      "Adaptability",
+      "Analytical thinking",
+      "Creativity",
+      "Time management",
+      "Problem-solving under pressure"
+    ],
+    "languagesTitle": "Languages",
+    "languages": {
+      "es": { "name": "Spanish", "level": "Native" },
+      "en": { "name": "English", "level": "Intermediate" }
+    }
+  },
+  "experience": {
+    "eyebrow": "Background",
+    "title": "Experience & Education",
+    "professionalTitle": "Professional experience",
+    "educationTitle": "Education",
+    "jobs": {
+      "cnv": {
+        "role": "Full-Stack Developer",
+        "period": "2025 — Present",
+        "bullets": [
+          "Development of web applications using ASP.NET Core, Web APIs and Entity Framework.",
+          "Implementation of UIs with HTML, CSS, TypeScript and Vue.js.",
+          "Collaborative teamwork using Azure DevOps."
+        ]
+      },
+      "mecon": {
+        "role": "Full-Stack Developer",
+        "period": "2023 — 2025",
+        "bullets": [
+          "Development of desktop software with C#, SQL and Windows Forms.",
+          "Development of web applications using ASP.NET Core, Angular and Bootstrap.",
+          "Consumption and development of REST APIs."
+        ]
+      }
+    },
+    "education": {
+      "ifts": { "title": "Advanced Technical Degree in Software Development", "period": "2026 — Present" },
+      "uai": { "title": "Computer Systems Engineering", "period": "2019 — 2024 (up to 3rd year passed)" },
+      "coderhouse": { "title": "Web Development", "period": "Completed" },
+      "msft": { "title": "Software Development Fundamentals", "period": "Completed" }
+    }
+  },
+  "skills": {
+    "eyebrow": "Stack",
+    "title": "Technologies I work with",
+    "description": "Tools and languages I use day to day to build web and desktop applications.",
+    "groups": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "databases": "Databases",
+      "tools": "Tools",
+      "other": "Other"
+    }
+  },
+  "projects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "description": "Some of the systems I've built. Click 'View more' for the detail of each one.",
+    "inProgress": "In progress",
+    "completed": "Completed",
+    "inProgressGroup": "In progress",
+    "completedGroup": "Completed",
+    "viewMore": "View more",
+    "video": "Video",
+    "site": "Website",
+    "accessLive": "Access the Live System",
+    "liveAccess": "Live Access",
+    "repositories": "Repositories",
+    "techStack": "Tech Stack",
+    "emptyArchitecture": "No architecture notes have been added for this project yet.",
+    "emptyGallery": "No screenshots have been added for this project yet.",
+    "emptyLinks": "No links have been added for this project yet.",
+    "tabs": {
+      "overview": "Overview",
+      "architecture": "Architecture & Challenges",
+      "gallery": "Gallery",
+      "stack": "Stack & Links"
+    },
+    "items": {
+      "app-medica": {
+        "title": "Medical App",
+        "subtitle": "Mobile app",
+        "period": "2025 — Present",
+        "description": "Hybrid mobile app for appointment management and health tracking, built with Ionic, Angular and Capacitor for Android. Fill in the real description for this project in the translation files.",
+        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "architecture": [
+          "Describe the general architecture here (e.g. Ionic + Angular for the mobile app, Capacitor to build for Android/iOS).",
+          "Add the biggest technical challenges you solved."
+        ]
+      },
+      "web-agro": {
+        "title": "Agro Web",
+        "subtitle": "Web platform",
+        "period": "2025 — Present",
+        "description": "Web platform for the agricultural sector, built with ASP.NET Core and Angular. Fill in the real description for this project in the translation files.",
+        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "architecture": [
+          "Describe the general architecture here (e.g. ASP.NET Core + Entity Framework API, Angular frontend consuming the REST API).",
+          "Add the biggest technical challenges you solved."
+        ]
+      },
+      "form-engine": {
+        "title": "Form Engine",
+        "subtitle": "Form builder engine",
+        "period": "2025 — Present",
+        "description": "Dynamic form engine with an ASP.NET Core backend and an Angular frontend. Fill in the real description for this project in the translation files.",
+        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "architecture": [
+          "Describe the general architecture here (e.g. dynamic form definition engine consumed via REST API).",
+          "Add the biggest technical challenges you solved."
+        ]
+      }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk",
+    "description": "Have a project in mind or a job opportunity? Write to me and I'll get back to you shortly.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "you\\@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Job offer, project, etc.",
+      "message": "Message",
+      "messagePlaceholder": "Tell me how I can help...",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Thanks! Your message was sent, I'll get back to you soon.",
+      "genericError": "Something went wrong. Please try again in a few minutes."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "linkedin": "LinkedIn",
+    "email": "Email"
+  }
+}
