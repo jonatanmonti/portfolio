@@ -118,33 +118,33 @@
         "title": "Medical App",
         "subtitle": "Mobile app",
         "period": "2025 — Present",
-        "description": "Hybrid mobile app for appointment management and health tracking, built with Ionic, Angular and Capacitor for Android. Fill in the real description for this project in the translation files.",
-        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "description": "Hybrid mobile app for appointment management and health tracking, built with Ionic, Angular and Capacitor for Android.",
+        "overview": "An app designed to simplify managing medical appointments and tracking a patient's health history from their phone, with a native-like experience thanks to Capacitor.",
         "architecture": [
-          "Describe the general architecture here (e.g. Ionic + Angular for the mobile app, Capacitor to build for Android/iOS).",
-          "Add the biggest technical challenges you solved."
+          "Frontend built with Ionic + Angular, packaged for Android with Capacitor.",
+          "Consumes a REST API to sync appointments and health data."
         ]
       },
       "web-agro": {
         "title": "Agro Web",
         "subtitle": "Web platform",
         "period": "2025 — Present",
-        "description": "Web platform for the agricultural sector, built with ASP.NET Core and Angular. Fill in the real description for this project in the translation files.",
-        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "description": "Web platform for the agricultural sector, built with ASP.NET Core and Angular.",
+        "overview": "A platform to digitize processes in the agricultural sector, combining an ASP.NET Core backend with a modern Angular interface.",
         "architecture": [
-          "Describe the general architecture here (e.g. ASP.NET Core + Entity Framework API, Angular frontend consuming the REST API).",
-          "Add the biggest technical challenges you solved."
+          "REST API built with ASP.NET Core and Entity Framework for data access.",
+          "Angular frontend consuming the API to manage the information."
         ]
       },
       "form-engine": {
         "title": "Form Engine",
         "subtitle": "Form builder engine",
         "period": "2025 — Present",
-        "description": "Dynamic form engine with an ASP.NET Core backend and an Angular frontend. Fill in the real description for this project in the translation files.",
-        "overview": "Add a longer description here: what problem it solves, who it's for, and what you'd like to highlight about your role in the development.",
+        "description": "Dynamic form engine with an ASP.NET Core backend and an Angular frontend.",
+        "overview": "An engine that lets you define and render dynamic forms without hardcoding each field, meant to be reused across different processes.",
         "architecture": [
-          "Describe the general architecture here (e.g. dynamic form definition engine consumed via REST API).",
-          "Add the biggest technical challenges you solved."
+          "ASP.NET Core backend that exposes the form definitions via a REST API.",
+          "Angular frontend that interprets that definition and renders the form dynamically."
         ]
       }
     }

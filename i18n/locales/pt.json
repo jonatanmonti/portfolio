@@ -118,33 +118,33 @@
         "title": "App Médico",
         "subtitle": "Aplicativo móvel",
         "period": "2025 — Atualidade",
-        "description": "Aplicativo móvel híbrido para gestão de consultas e acompanhamento de saúde, desenvolvido com Ionic, Angular e Capacitor para Android. Complete a descrição real do projeto nos arquivos de tradução.",
-        "overview": "Adicione aqui uma descrição mais longa do projeto: qual problema ele resolve, para quem é destinado e o que você quer destacar sobre o seu papel no desenvolvimento.",
+        "description": "Aplicativo móvel híbrido para gestão de consultas e acompanhamento de saúde, desenvolvido com Ionic, Angular e Capacitor para Android.",
+        "overview": "Um app pensado para simplificar a gestão de consultas médicas e o acompanhamento do histórico de saúde do paciente pelo celular, com uma experiência nativa graças ao Capacitor.",
         "architecture": [
-          "Descreva aqui a arquitetura geral (ex: Ionic + Angular para o app móvel, Capacitor para compilar para Android/iOS).",
-          "Adicione os maiores desafios técnicos que você resolveu."
+          "Frontend em Ionic + Angular, empacotado para Android com Capacitor.",
+          "Consumo de uma API REST para a sincronização de consultas e dados de saúde."
         ]
       },
       "web-agro": {
         "title": "Web Agro",
         "subtitle": "Plataforma web",
         "period": "2025 — Atualidade",
-        "description": "Plataforma web para o setor agropecuário, desenvolvida com ASP.NET Core e Angular. Complete a descrição real do projeto nos arquivos de tradução.",
-        "overview": "Adicione aqui uma descrição mais longa do projeto: qual problema ele resolve, para quem é destinado e o que você quer destacar sobre o seu papel no desenvolvimento.",
+        "description": "Plataforma web para o setor agropecuário, desenvolvida com ASP.NET Core e Angular.",
+        "overview": "Uma plataforma para digitalizar processos do setor agropecuário, combinando um backend em ASP.NET Core com uma interface moderna em Angular.",
         "architecture": [
-          "Descreva aqui a arquitetura geral (ex: API em ASP.NET Core + Entity Framework, frontend em Angular consumindo a API REST).",
-          "Adicione os maiores desafios técnicos que você resolveu."
+          "API REST em ASP.NET Core com Entity Framework para acesso aos dados.",
+          "Frontend em Angular consumindo a API para a gestão das informações."
         ]
       },
       "form-engine": {
         "title": "Form Engine",
         "subtitle": "Motor de formulários",
         "period": "2025 — Atualidade",
-        "description": "Motor de formulários dinâmicos com backend em ASP.NET Core e frontend em Angular. Complete a descrição real do projeto nos arquivos de tradução.",
-        "overview": "Adicione aqui uma descrição mais longa do projeto: qual problema ele resolve, para quem é destinado e o que você quer destacar sobre o seu papel no desenvolvimento.",
+        "description": "Motor de formulários dinâmicos com backend em ASP.NET Core e frontend em Angular.",
+        "overview": "Um motor que permite definir e renderizar formulários dinâmicos sem precisar codificar cada campo manualmente, pensado para ser reutilizado em diferentes processos.",
         "architecture": [
-          "Descreva aqui a arquitetura geral (ex: motor de definição de formulários dinâmicos consumido via API REST).",
-          "Adicione os maiores desafios técnicos que você resolveu."
+          "Backend em ASP.NET Core que expõe a definição dos formulários via API REST.",
+          "Frontend em Angular que interpreta essa definição e renderiza o formulário dinamicamente."
         ]
       }
     }
